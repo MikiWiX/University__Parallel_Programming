@@ -478,7 +478,7 @@ numeric_type* find_primes_in_range_concept_2_parallel_domain(numeric_type a, num
 		return 0;
 	}
 
-	//copy arimes that are already calculated to ouput if needed;
+	//copy numbers that are already calculated to ouput if needed;
 	// next step evety odd number in between max(a, sieve_size) to b, if checking for modulo against all primes from the sieve;
 	// some numbers (copied here) will make modulo itself, resulting in not being added to final solution
 	for (numeric_type i = 0; i < primes_len; i++) {
